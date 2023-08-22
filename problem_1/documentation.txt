@@ -1,0 +1,32 @@
+-Used programming language: Python
+
+-Overview: This program traverse a whole directory with it's files and subdirectories, it copies all images found in one directory,
+and outputs a csv file and excel sheet containing image name, image size and last modification done on each image.
+
+-Libraries used:
+	1] os: to handle file and directories operations
+	2] pandas: library to work with dataset, with easy implementation to convert list in dataframes, and dataframes into csv files 
+	or excel files
+	3] shutil: to handle moving/copying images to one folder
+	4] datetime: for date and time formatting
+
+-How to run:
+	1] you must have python installed, to check your python version start your cmd and run:
+		python --version
+	if  not installed, you can download it from here (python3): 
+		(windows) https://www.dataquest.io/blog/installing-python-on-windows/
+		(mac) run: brew install python
+	2] create virtual environment to install some libraries in it, run:
+		(windowos) py -3 -m venv <your venv name>
+		(mac) python3 -m venv <your venv name>
+	3] activate your venv:
+		(windows) <your venv name>\scripts\activate
+		(mac) source <your venv name>/bin/activate
+	4] -ctrl + shift + p 
+	   -select python interpreter
+	   -Python ('venv': <your venv name>)
+	5] to install pandas library run:
+		pip install pandas
+	6] to install openpyxl to write/read from excel file:
+		pip install openpyxl
+
