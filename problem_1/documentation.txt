@@ -30,3 +30,4 @@ and outputs a csv file and excel sheet containing image name, image size and las
 	6] to install openpyxl to write/read from excel file:
 		pip install openpyxl
 
+	7] right click on extractImg.py and run
