@@ -34,7 +34,7 @@ for line in imgInfo:
     results.append({"image_rotation": imageRot,
                      "values" : values})
 
-# new_json = 'images.json'
+new_json = 'images.json'
 ImgSpec = {"results": results}
 main = json.dumps(ImgSpec, indent=4)
 with open(new_json, "w") as j:
