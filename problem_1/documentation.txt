@@ -1,13 +1,13 @@
 -Used programming language: Python
 
--Overview: This program traverse a whole directory with it's files and subdirectories, it copies all images found in one directory,
+-Overview: This program traverse a whole directory with it's subdirectories, it copies all images found to other new directory,
 and outputs a csv file and excel sheet containing image name, image size and last modification done on each image.
 
 -Libraries used:
-	1] os: to handle file and directories operations
-	2] pandas: library to work with dataset, with easy implementation to convert list in dataframes, and dataframes into csv files 
+	1] os: to handle files and directories operations
+	2] pandas: library to work with dataset, with easy implementation to convert list into dataframes, and dataframes into csv files 
 	or excel files
-	3] shutil: to handle moving/copying images to one folder
+	3] shutil: to handle moving/copying images to new directory
 	4] datetime: for date and time formatting
 
 -How to run:
