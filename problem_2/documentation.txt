@@ -1,0 +1,8 @@
+-Used progamming language: Python
+
+Overview: This program reads a txt file containing information about objects in an image (x poition, y position, width of object, height 
+of object), reading these information and converting them into JSON file to be read by another program for futher processing
+
+-Used libraries: JSON
+
+-How to run: right click on getJSON.py and run
